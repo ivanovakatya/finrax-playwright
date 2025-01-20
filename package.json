@@ -3,7 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "qatest": "npx playwright test",
+    "qaheaded": "npx playwright test --headed",
+    "qadebug": "playwright test --debug",
+    "qareport": "npx playwright show-report"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ivanovakatya/finrax-playwright.git"
